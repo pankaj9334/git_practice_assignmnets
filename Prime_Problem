@@ -1,11 +1,11 @@
 let num=23;
 count=0;
-for(let i=0;i<=num;i++){
-if(num%i==0){
+for(let i=2;i<=num;i++){    // if we start our loop from 2 then it should be good
+if(num%i===0){
 count++;
   }
 }
-if(count!=2){
+if(count===1){
 console.log("Prime number");
 }else{
  console.log("Not a Prime number");
